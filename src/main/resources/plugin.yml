@@ -1,0 +1,14 @@
+name: com.github.MCe.MCeRanks
+main: com.github.MCe.ranks.com.github.MCe.MCeRanks
+version: 0
+
+commands:
+    ranks:
+        description: Root command for managing Ranks configuration.
+        aliases: [mcer,mceranks]
+        usage: |
+            /<command>
+
+permissions:
+    mceranks.*:
+        description: Gives access to all Ranks commands.
